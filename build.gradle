@@ -23,6 +23,8 @@ plugins {
     id 'maven'
 }
 
+apply plugin: 'maven'
+
 group = 'com.github.Tom-hayden'
 
 allprojects {
