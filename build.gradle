@@ -64,4 +64,8 @@ subprojects {
 	}
 }
 
-
+task("install") {
+    dependsOn build
+    doLast{
+    }
+}
