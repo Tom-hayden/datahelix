@@ -20,6 +20,8 @@
 
 apply plugin: 'maven'
 
+group = 'com.github.Tom-hayden'
+
 allprojects {
     group = 'com.scottlogic.datahelix.generator'
 }
